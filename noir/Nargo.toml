@@ -1,0 +1,7 @@
+[package]
+name = "der_compliance"
+type = "bin"
+authors = ["Shreya Savant"]
+compiler_version = ">=1.0.0"
+
+[dependencies]

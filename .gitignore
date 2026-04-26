@@ -1,0 +1,42 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment / secrets
+.env
+
+# Playwright MCP logs
+.playwright-mcp/
+
+# circomlib (external dependency)
+circomlib/
+
+# Build artifacts
+build/
+*.ptau
+*.zkey
+*.wtns
+*.r1cs
+*.sym
+
+# circom binaries
+circom2
+
+# Compressed files
+*.zip
+
+# OS
+.DS_Store
+
+# Noir
+target/
+noir/target/
+Prover.toml*
+noir/Prover.toml*
+
+# LaTeX 
+report/*
+
+# Course handouts (instructor-distributed, not ours to redistribute)
+D4.docx
+QA-for-Dev3.pdf
